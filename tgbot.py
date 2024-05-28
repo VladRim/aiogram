@@ -13,10 +13,6 @@ from core.handlers.basic import get_start
 from core.settings import settings
 
 
-#token = '1040121333:AAFW51UxDU2eHHbO4_N6l1SC58UWcywJ-5E'
-
-#import config
-
 async def start_bot(bot: Bot):
     await bot.send_message(settings.bots.admin_id, text="бот запущен")
 
